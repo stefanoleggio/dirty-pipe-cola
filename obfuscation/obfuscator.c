@@ -127,22 +127,17 @@ int main(int argc, char **argv) {
 
         // File writing
 
-        out_file = fopen("out/obfuscated.s","w");
+        out_file = fopen("out/obfuscated.hex","wb+");
 
-        char* s = "global _start\n_start:\ndb ";
+        char* s = "global _start\n_start:\n";
 
         char out_buffer[10000];
 
         int length = 0;
 
-        length += sprintf(out_buffer, s);
-
 
         for (i = 0; i < strlen((char *)ebuf); i++) {
-            if(i == strlen((char *)ebuf) - 1)
-                length += sprintf(out_buffer + length, "0x%02x", ebuf[i]);
-            else
-                length += sprintf(out_buffer + length, "0x%02x,", ebuf[i]);
+            length += sprintf(out_buffer + length, "\\x%02x", ebuf[i]);
         }
 
         fwrite(out_buffer , 1 , length , out_file);
