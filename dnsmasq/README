@@ -2,7 +2,7 @@
 sudo bash dsnmasq.sh
 
 
-# You can change the attacker PC in the hosts file (the one configured is 10.0.2.5)
+# You can change the attacker PC in the hosts file (the one configured is 10.0.2.10)
 
 ; <<>> DiG 9.18.1-1ubuntu1.2-Ubuntu <<>> A zooom.us
 ;; global options: +cmd
