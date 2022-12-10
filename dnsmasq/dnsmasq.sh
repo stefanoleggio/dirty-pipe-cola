@@ -27,7 +27,7 @@ sudo systemctl restart dnsmasq
 # Step 2: Adding DNS records to Dnsmasq
 # Add DNS records in the file./etc/hosts. Dnsmasq will reply to queries from clients using these records.
 # sudo vim /etc/hosts
-# 10.0.2.5	zoom.us
+# 10.0.2.5	zooom.us
 sudo cp hosts /etc/hosts
 
 #You need to restart dnsmasq service after adding the records.
@@ -40,12 +40,12 @@ sudo systemctl restart dnsmasq
 sudo cp resolv.conf /etc/resolv.conf
 
 # Test using dig
-dig A zoom.us
+dig A zooom.us
 
 
 # Here is another example:
 # You can confirm that we’re getting responses as configured.
-dig zoom.us A +noall +answer
+dig zooom.us A +noall +answer
 
 
 
