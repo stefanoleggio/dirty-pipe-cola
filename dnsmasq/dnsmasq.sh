@@ -15,10 +15,10 @@ sudo apt update
 sudo apt install dnsmasq
 
 # The main configuration file for Dnsmasq is /etc/dnsmasq.conf. Configure Dnsmasq by modifying this file
-//sudo vim /etc/dnsmasq.conf
+# sudo vim /etc/dnsmasq.conf
 sudo cp dnsmasq.conf /etc/dnsmasq.conf
 
-//If you want to enable DNSSEC validation and caching, uncomment
+# If you want to enable DNSSEC validation and caching, uncomment
 # sudo dnssec
 
 # restart dnsmasq when done
@@ -30,7 +30,7 @@ sudo systemctl restart dnsmasq
 # 10.0.2.5	zoom.us
 sudo cp hosts /etc/hosts
 
-//You need to restart dnsmasq service after adding the records.
+#You need to restart dnsmasq service after adding the records.
 sudo systemctl restart dnsmasq
 
 # Step 3: Testing Dnsmasq DNS functionality
