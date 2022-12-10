@@ -1,5 +1,5 @@
 # HOW TO EXECUTE THE DNSMASQ
-sudo bash dsnmaq.sh
+sudo bash dsnmasq.sh
 
 
 # You can change the attacker PC in the hosts file (the one configured is 10.0.2.5)
