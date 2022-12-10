@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Constants
-const PORT = 8080;
+const PORT = 80;
 const HOST = '0.0.0.0';
 const ZOOM_PATH = path.resolve(__dirname, 'zoom')
 
