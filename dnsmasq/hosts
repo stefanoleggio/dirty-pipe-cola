@@ -1,6 +1,6 @@
 127.0.0.1	localhost
 127.0.1.1	osboxes
-10.0.2.5	zooom.us	
+10.0.2.10	zooom.us	
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
