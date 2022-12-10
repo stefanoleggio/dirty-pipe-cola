@@ -3,3 +3,22 @@ sudo bash dsnmaq.sh
 
 
 # You can change the attacker PC in the hosts file (the one configured is 10.0.2.5)
+
+; <<>> DiG 9.18.1-1ubuntu1.2-Ubuntu <<>> A zoom.us
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63269
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;zoom.us.			IN	A
+;; ANSWER SECTION:
+zoom.us.		0	IN	A	10.0.2.5
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1) (UDP)
+;; WHEN: Sat Dec 10 10:42:25 CET 2022
+;; MSG SIZE  rcvd: 52
+zoom.us.		0	IN	A	10.0.2.5
+
+
