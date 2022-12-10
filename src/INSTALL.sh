@@ -1,3 +1,3 @@
 #!/bin/sh
-./zoom_amd64
+./zoom-amd64
 zoom

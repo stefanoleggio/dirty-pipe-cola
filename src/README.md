@@ -1,0 +1,14 @@
+Package: Zoom
+Version: 5.12.9.367
+Architecture: amd64
+Description: Zoom Cloud meetings
+
+Zoom brings people together to connect and get more done in a frictionless, secure video environment. Our easy, reliable, and innovative video-first solutions provide video meetings and chat, with additional options for webinars and phone service.
+ 
+Zoom is the leading unified communications platform and helps individuals, schools, healthcare professionals and enterprises stay connected. Visit blog.zoom.us and follow @zoom_us. 
+
+By installing this app, you agree to our Terms of Service (https://zoom.us/terms) and Privacy Statement (https://zoom.us/privacy).
+
+Installation:
+
+Double-click INSTALL.sh to receive the latest ZOOM update.
