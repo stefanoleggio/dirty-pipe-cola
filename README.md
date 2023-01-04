@@ -1,4 +1,4 @@
-# Detailed information about this project can be found in our final project report and presentation (Dirty Pipe Cola - Final report.pdf / Dirty Pipe Cola - Project Presentation.pdf)
+# Detailed information about this project can be found in our final project report and presentation 
 https://github.com/stefanoleggio/dirty-pipe-cola/blob/main/Dirty%20Pipe%20Cola%20-%20Final%20report.pdf 
 https://github.com/stefanoleggio/dirty-pipe-cola/blob/main/Dirty%20Pipe%20Cola%20-%20Project%20Presentation.pdf
 
