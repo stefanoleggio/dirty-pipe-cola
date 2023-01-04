@@ -1,5 +1,6 @@
-# Detailed information about this project can be found in our final project report (Dirty Pipe Cola - Final report.pdf)
+# Detailed information about this project can be found in our final project report and presentation (Dirty Pipe Cola - Final report.pdf / Dirty Pipe Cola - Project Presentation.pdf)
 https://github.com/stefanoleggio/dirty-pipe-cola/blob/main/Dirty%20Pipe%20Cola%20-%20Final%20report.pdf 
+https://github.com/stefanoleggio/dirty-pipe-cola/blob/main/Dirty%20Pipe%20Cola%20-%20Project%20Presentation.pdf
 
 # Reference to CVE-2022-0847-DirtyPipe-Exploits
 - https://github.com/febinrev/dirtypipez-exploit
