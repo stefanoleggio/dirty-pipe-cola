@@ -5,3 +5,8 @@
 # Reference to CVE-2022-0847-DirtyPipe-Exploits
 - https://github.com/febinrev/dirtypipez-exploit
 - https://github.com/basharkey/CVE-2022-0847-dirty-pipe-checker
+
+# Disclaimer
+All information on this website is for educational use only.
+
+By using this website you agree to never attempt to use these techniques on or against systems that you do not own, or have express permission to do so. Doing so is illegal and you could end up in jail. 
